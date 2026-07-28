@@ -9,7 +9,7 @@ from docx import Document
 # Load API key
 load_dotenv()
 
-api_key = os.getenv("GROQ_API_KEY")
+groq_api_key = os.getenv("GROQ_API_KEY")
 
 if not api_key:
     st.error("Groq API Key not found! Please check your .env file.")
