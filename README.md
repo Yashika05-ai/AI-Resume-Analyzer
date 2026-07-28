@@ -2,7 +2,7 @@
 
 An AI-powered Resume Analyzer built with **Streamlit**, **Groq API**, and **Prompt Engineering**. This application analyzes resumes, evaluates ATS compatibility, identifies missing skills, suggests improvements, and generates interview questions to help users build stronger resumes.
 
-[Deploy Link]:[https://ai-resume-analyzer-ceqyhbxr6cqvbgzv8f2tyk.streamlit.app/](https://ai-resume-analyzer-ceqyhbxr6cqvbgzv8f2tyk.streamlit.app/)
+Deploy Link:[https://ai-resume-analyzer-ceqyhbxr6cqvbgzv8f2tyk.streamlit.app/](https://ai-resume-analyzer-ceqyhbxr6cqvbgzv8f2tyk.streamlit.app)
 
 ---
 
