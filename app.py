@@ -9,10 +9,13 @@ from docx import Document
 # Load API key
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+api_key = ( 
+st.secrets.get("GROQ_API_KEY") or
+os.getenv("GROQ_API_KEY") 
+)
 
 if not api_key:
-    st.error("Groq API Key not found! Please check your .env file.")
+    st.error("Groq API Key not found! Please check Streamlit Secrets or your .env file.")
     st.stop()
 
 client = Groq(api_key=api_key)
